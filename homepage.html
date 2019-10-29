@@ -1,0 +1,99 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>homepage</title>
+<style>
+body {
+      margin:0;
+}
+/* Style the header*/
+.header {
+  background-color:#8e44ad;
+  padding:20px;
+  text-align:center;
+}
+
+/* style the top navigation bar */
+.topnav{
+  overflow: hidden;
+  background-color:#bb71b167;
+
+}
+/* style the topnav links*/
+.topnav a{
+float: left;
+display: block;
+color: blue;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;  
+}
+
+/*change color on hover */
+.topnav a:hover{
+  background-color: rgba(156, 41, 179, 0.623);
+  color: yellow;
+}
+/* create three equal columns that floats next to each other */
+.column{
+  float: left;
+  width: 31%;
+  padding: 15px;
+}
+/*clear floats after the column*/
+.row:after{
+  content:"";
+  display: table;
+  clear:both;
+}
+/*responsive layout- makes the three column stack on top of each other*/
+@media screen and (max-width: width 600px){
+  .column{
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="header">
+   <h1>VIDHYA SCHOLAR<br></br></h1>
+   
+</div>
+<div class="topnav ">
+    <table >
+        <tr>
+            <td> <a href="loginsample.html">LOGIN</a></td>
+            <td><a href="register.html">REGISTER</a></td>
+            <td><a href="html">SCHOLARSHIPS</a></td>
+            <td><a href="applicationpage.html">APPLICATION</a></td>
+            <td><a href="">ADMINLOGIN</a></td>
+            <td><a href="">CONTACT US</a></td>
+    </tr>
+</table>
+  
+
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Column1</h2>
+    <p>hello deepak</p>
+  </div>
+
+  <div class="column">
+    <h2>Column2</h2>
+    <p>welcome to dbms</p>
+  </div>
+
+  <div class="column">
+    <h2>Column3</h2>
+    <p>have a nice day</p>
+     </div>
+</div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<title>register page</title>
+<style>
+.button {
+    background-color:rgb(70, 204, 44);
+    border: none;
+    color:golden;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%
+}
+body {
+background-image: url("log.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+</style>
+
+</head>
+<body> 
+    <form id="form1" action="admin.php" method="POST" runat="server">  
+    <div>                
+    </div>   
+<a href= 'homepage.html' class="button" >HOME</a>
+    <h2 align="center"><font color="#191970" size="20" face="segeo print">REGISTER</font> </h2>
+    <table id="table1"; cellspacing="30px" cellpadding="8%"; align="center">  
+     <tr> 
+        <td align="right"><font color="#191970" size="5" face="segeo print">FirstName</font></td>  
+         <td>
+            <input type="text" placeholder="Enter Firstname" name="text" required style="HEIGHT:30PX;WIDTH:200PX;"/>
+         </td> 
+        <td align="right"><font color="#191970" size="5" face="segeo print">LastName </font></td>
+         <td>
+            <input type="text" placeholder="Enter LastName" name="text" required style="HEIGHT:30PX;WIDTH:200PX;"/>
+        </td>
+                 
+     </tr> 
+     
+    <tr> 
+         <td align="right"><font color="#191970" size="5" face="segeo print">Email ID</font></td>  
+          <td>
+            <input type="email" placeholder="Enter Email Id" name="email" required style="HEIGHT:30PX;WIDTH:200PX;"/>
+          </td>  
+          <td align="right"><font color="#191970" size="5" face="segeo print">Contact</font> </td> 
+          <td>    
+            <input type="tel" placeholder="Enter number" name="phone" maxlength="10"  required style="HEIGHT:30PX;WIDTH:200PX;"/>
+         </td>
+    </tr> 
+
+<tr>  
+  <td align="right"><font color="#191970" size="5" face="segeo print">Password</font> </td> 
+  <td>    
+    <input type="password" placeholder="Enter Password" name="psw" required style="HEIGHT:30PX;WIDTH:200PX;"/>
+ </td>
+ <td align="right"><font color="#191970" size="5" face="segeo print">Confirm Password</font> </td> 
+  <td>    
+    <input type="password" placeholder="Enter Password" name="psw" required style="HEIGHT:30PX;WIDTH:200PX;"/>
+ </td>
+     
+       </tr> 
+    
+	   <tr>  
+       <td>
+<button class="button" value="home"  class="css3button" style="margin-left: 75px">SUBMIT</button>	   
+        </td>  
+        </tr>
+        
+    </form>  
+    </body>
+</html>
